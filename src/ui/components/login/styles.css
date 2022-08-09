@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-login-container {
+    position: relative;
+    width: 50%;
+}
+
+.login-picture {
+    width: 100%;
+    height: 100vh;
+}
+
+.login-picture-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    font-size: 24px;
+    color: #fff;
+}
+
+.login-logo-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-logo-container h1 {
+    color: #00631C;
+}
+
+.right-login-container {
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 50px 0;
+    position: relative;
+}
+
+.login-form {
+    /* display: flex; */
+    width: 60%;
+    /* border: 1px solid #00631C; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form-description {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.login-form form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #C4C4C4;
+}
+
+.password-label-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-label-section a {
+    color: #00631C;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login-submit-btn {
+    background-color: #00631C;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.signup-alternative-text {
+    color: #00631C;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.login-signup-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-signup-btns button {
+    background-color: transparent;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 14px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.login-student-signup {
+    color: #D00C0C;
+}
+
+.login-lecturer-signup {
+    color: #00631C;
+}

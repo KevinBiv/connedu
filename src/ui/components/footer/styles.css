@@ -1,0 +1,29 @@
+.footer-container {
+    width: 100%;
+    background-color: #00631C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* overflow-x: hidden; */
+}
+
+.footer-title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.social-media-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 30px;
+}
+
+.footer-copyright {
+    margin-bottom: 20px;
+}

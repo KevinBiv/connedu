@@ -1,0 +1,17 @@
+.card {
+    width: 400px;
+    /* background-color: red; */
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px #C0C0C0;
+    padding: 30px 20px;
+}
+
+.card-title {
+    color: #00631C;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    font-size: 20px;
+}

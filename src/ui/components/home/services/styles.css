@@ -1,0 +1,8 @@
+.services-container {
+    padding: 30px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
