@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .navbar-logo-container, .navbar-list, .navbar-account-list {
@@ -36,12 +37,19 @@
     display: none;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
+.lock {
+    display: none;
+}
+
+.company-name {
+    color: #00631C;
+}
 
 @media(max-width: 1240px) {
-    .navbar-logo-container {
-        /* background: red; */
-        
-    }
 
     .company-name {
         position: relative;
@@ -71,5 +79,49 @@
 }
 
 @media(max-width: 790px) {
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .lock {
+        display: inline-block;
+    }
+
+    .navbar-list, .navbar-account-list, .home, .about {
+        display: none;
+    }
+
+    .navbar-logo-container {
+        gap: 10px;
+    }
+
+    .company-logo {
+        font-size: 24px;
+    }
+
+    .hamburger-menu, .lock {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 630px) {
+    .navbar-container {
+        padding: 5px 30px;
+    }
+}
+
+@media(max-width: 430px) {
+    .navbar-logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .company-logo {
+        display: none;
+    }
     
+    .company-name {
+        position: static;
+    }
 }

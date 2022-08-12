@@ -1,0 +1,76 @@
+.question-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    /* margin-bottom: 50px; */
+    
+}
+
+/* .profile-pic-upvotes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+.upvotes {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.upvotes button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.question-and-answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.answers-and-views {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #D9D9D9;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.answers-and-views .answers-views button {
+    padding: 8px 30px;
+    font-size: 14px;
+    /* width: 100%; */
+}
+
+.answer-btn {
+    background-color: #0FA958;
+    border: none;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.answers-views {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.question {
+    margin-bottom: 10px;
+    /* background-color: red; */
+    width: 70%;
+}

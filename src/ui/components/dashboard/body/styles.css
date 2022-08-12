@@ -1,0 +1,12 @@
+.dashboard-body-container {
+    padding: 0 100px;
+    /* background-color: red; */
+    height: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start; */
+    /* gap: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start ;
+}
