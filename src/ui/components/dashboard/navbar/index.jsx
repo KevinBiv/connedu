@@ -5,6 +5,8 @@ import chevron from '../../../resources/chevron.png';
 import bell from '../../../resources/bell.png';
 import user from '../../../resources/user.png';
 import {FiMoreHorizontal} from 'react-icons/fi';
+import {GiHamburgerMenu} from 'react-icons/gi';
+import {AiFillLock} from 'react-icons/ai';
 
 
 class DashboardNavbar extends React.Component {
@@ -12,13 +14,15 @@ class DashboardNavbar extends React.Component {
         return(
             <>
                 <div className="navbar-container">
+                    <GiHamburgerMenu className="hamburger-menu" />
                     <div className="navbar-logo-container">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="" className="company-logo" />
                         <h1 className="company-name">ConnEdu</h1>
                     </div>
+                    <AiFillLock className="lock" />
                     <ul className="navbar-list">
-                        <li><a href="null" className="home">Home</a></li>
-                        <li><a href="null" className="about">About</a></li>
+                        <li className="home"><a href="null">Home</a></li>
+                        <li className="about"><a href="null">About</a></li>
                         <li className="blog"><a href="null">Blog</a></li>
                         <li className="contact"><a href="null" >Contact</a></li>
                         <li><button><FiMoreHorizontal className="more-menus" /></button></li>
